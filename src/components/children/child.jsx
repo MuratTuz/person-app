@@ -5,7 +5,7 @@ import ChildItem from './childItem';
 const Child = (props) => {
 
     return (
-        <Row>
+        <Row className='border border-warning rounded my-2 mx-1'>
             <Col>
                 <h3>Children</h3>
             </Col>

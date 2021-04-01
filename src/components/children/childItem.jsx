@@ -12,10 +12,10 @@ const ChildItem = (props) => {
     return (
         <Col>
             <img src={avatar} alt='it cannot be shown' />
-            <p>Firstname : {firstName}</p>
-            <p>Lastname : {lastName}</p>
-            <p>Gender : {gender}</p>
-            <p>Birthday : {birthday}</p>
+            <p><b>Firstname : </b>{firstName}</p>
+            <p><b>Lastname : </b>{lastName}</p>
+            <p><b>Gender : </b>{gender}</p>
+            <p><b>Birthday : </b>{birthday}</p>
         </Col>
 
     )

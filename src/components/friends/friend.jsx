@@ -5,7 +5,7 @@ import FriendItem from './friendItem';
 const Friend = (props) => {
 
     return (
-        <Row>
+        <Row className='border border-success rounded my-2 mx-1'>
             <Col>
                 <h3>Friends</h3>
             </Col>

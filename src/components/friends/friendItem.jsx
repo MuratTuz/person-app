@@ -18,16 +18,16 @@ const FriendItem = (props) => {
     return (
         <Col>
             <img src={avatar} alt='it cannot be shown' />
-            <p>Firstname : {firstName}</p>
-            <p>Lastname : {lastName}</p>
-            <p>Gender : {gender}</p>
-            <p>Profession : {profession}</p>
-            <p>Language : {language}</p>
-            <p>Birthday : {birthday}</p>
-            <p>Salary : {salary}</p>
-            <p>Address : {address}</p>
-            <p>City : {city}</p>
-            <p>Phone : {phone}</p>
+            <p><b>Firstname : </b>{firstName}</p>
+            <p><b>Lastname : </b>{lastName}</p>
+            <p><b>Gender : </b>{gender}</p>
+            <p><b>Profession : </b>{profession}</p>
+            <p><b>Language : </b>{language}</p>
+            <p><b>Birthday : </b>{birthday}</p>
+            <p><b>Salary : </b>{salary}</p>
+            <p><b>Address : </b>{address}</p>
+            <p><b>City : </b>{city}</p>
+            <p><b>Phone : </b>{phone}</p>
         </Col>
 
     )
